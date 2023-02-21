@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: lightgray;
+}
+
+.intestazione {
+    background-color: white;
+    margin: 0;
+}
+
+.title {
+    display: inline-block;
+    background-color: white;
+    vertical-align: revert;
+    font-size: 50px;
+}
+
+.container {
+   margin: 50px 300px 0;
+   width: 800px;
+   height: 800px; 
+   background-color: white;
+   border-radius: 5px;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.button.add {
+    margin-left: 40px;
+    margin-right: 20px;
+    background-color: rgb(30, 122, 180);
+    color: white;
+}
+
+.input-task {
+    padding: 8px;
+    border-radius: 5px;
+    border-color: #1E7AB4;
+}
+
+.text-barrato {
+    text-decoration: line-through;
+}
+
+/* .border {
+    border: 1px solid lightgray;
+    margin: 8px 0;
+} */
+
+.content {
+    margin-left: 40px;
+}
+
+h3 {
+    margin: 20px;
+}
+
+.check {
+    color: green;
+    border-radius: 50%;
+    border: 1px solid green;
+    padding: 3px;
+}
+
+.info {
+    font-size: 11px;
+    padding: 8px;
+    border-radius: 12px;
+    color: white;
+}
+
+.info.primo {
+    background-color: lightblue;
+}
+
+.info.secondo {
+    background-color: purple;
+}
+
+.info.terzo {
+    background-color: green;
+}
+
+.cross {
+    color: red;
+    border-radius: 50%;
+    border: 1px solid red;
+    padding: 3px;
+}
+
+.info.quarto {
+    background-color: orange;
+}
+
+.info.quinto {
+    background-color: blueviolet;
+}
+
+.info.sesto {
+    background-color:rgb(89, 255, 0);
+}
+
+.info.settimo {
+    background-color: blue;
+}
+
+.freccia {
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+div {
+    margin: 20px;
+}
