@@ -1,5 +1,3 @@
-console.log('CIAO')
-
 const { createApp } = Vue
 
 createApp({
@@ -41,23 +39,25 @@ createApp({
                 {
                     text: 'Review editorial calendar',
                     done: true,
-                },
+                }
             ],
-            doneTrue: "fa-regular fa-circle-check",
-            doneFalse: "fa-sharp fa-regular fa-circle-xmark"
+            addNewTask: '',
         }
     },
     methods: {
-        isOrNotDone() {
-            if (this.done === true) {
-                tasks.push(doneTrue)
-            } else {
-                tasks.push(doneFalse)
-            }
-        },
         removeTask(startIndex) {
             this.tasks.splice(startIndex, 1)
+        },
+        addTask(){
+            // const newTask = this.addNewTask
+            //this.tasks.push(newTask)
+            this.tasks.push({
+                text: '',
+                done: false,
+            })
+			// this.addNewTask = ''
         }
     }
-
 }).mount('#app')
+
+
